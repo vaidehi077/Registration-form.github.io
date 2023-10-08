@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("V6.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+div.main{
+    width: 450px;
+    margin: 100px auto 0px auto;
+
+}
+h2{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.register{
+    background-color:rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    font-size: 18px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: #FFB74D ;
+    margin-bottom: 20px;
+    position: right;
+}
